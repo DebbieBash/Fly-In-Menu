@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+.main-box {
+    width: 70%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    align-items: center;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 0.5rem;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.list-box{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    border: 1px solid rgb(188, 180, 180);
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-box{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0.5rem;
+
+}
+
+
+.name-box {
+    cursor: pointer;
+}
+
+
+
+
+.right-side-box{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.title-box {
+    
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+
+
+
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 22rem;
+}
