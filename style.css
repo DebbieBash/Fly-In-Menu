@@ -19,8 +19,9 @@
     background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
+    gap: 2rem;
 }
 
 .list-box{
@@ -58,6 +59,7 @@
     cursor: pointer;
     color: rgb(39, 39, 39);
     font-size: 1.2rem;
+    
 }
 
 
@@ -65,8 +67,16 @@
     cursor: pointer;
     color: rgb(101, 101, 101);
     font-size: 0.8rem;
+    
 }
 
+.name:hover {
+    text-decoration: underline;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
 
 .right-side-box{
     height: auto;
@@ -87,15 +97,25 @@
 
 }
 
+.title-box p{
+    color: rgb(101, 101, 101);
+    font-size: 0.8rem;
+}
+
+.title-box h4{
+    font-size: 0.9rem;
+}
+
 .icon-container{
     height: auto;
-
+    cursor: pointer;
 }
 
-.fa-solid fa-ellipsis-vertical {
+.icon {
     align-items: center;
-
+    cursor: pointer;
 }
+
 
 .fly-in-menu{
     background-color: rgb(243, 243, 243);
@@ -103,19 +123,79 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 10rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    border: 1px solid wheat;
     position: absolute;
-    
-    
+    visibility: hidden;
+}
+
+.fly-in-menu-new{
+    width: 120%;
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 8rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    box-shadow: 1px 2px 25px 2px rgba(56, 56, 56, 0.13);
+    border: 1px solid rgb(215, 215, 215);
+    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    position: absolute;
+    visibility: visible;
+}
+
+.fly-in-menu2{
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 10rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    border: 1px solid wheat;
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.fly-in-menu-new2{
+    width: 120%;
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 50rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    box-shadow: 1px 2px 25px 2px rgba(56, 56, 56, 0.13);
+    border: 1px solid rgb(215, 215, 215);
+    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    position: absolute;
+    visibility: visible;
 }
 
 .details {
     cursor: pointer;
 }
 
-.profile {
-    ursor: pointer;
+.details:hover {
+    text-decoration: underline;
 }
+
+.profile {
+    cursor: pointer;
+}
+
+.profile:hover {
+    text-decoration: underline;
+}
+
 
 .profile-img {
     width: 48px;
